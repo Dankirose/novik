@@ -1,0 +1,351 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(./fonts/Gilroy-Bold.eot) format("eot"),
+    url(./fonts/Gilroy-Bold.ttf) format("ttf"),
+    url(./fonts/Gilroy-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./fonts/Gilroy-Medium.eot) format("eot"),
+    url(./fonts/Gilroy-Medium.ttf) format("ttf"),
+    url(./fonts/Gilroy-Medium.woff) format("woff");
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #828282;
+  color: #070707;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.menu a {
+  text-decoration: none;
+  color: #828282;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  font-weight: 400;
+}
+.menu .active {
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+}
+.Denis {
+  color: #070707;
+  font-family: "Gilroy-bold";
+  font-size: 47.339px;
+  font-weight: 400;
+  width: 123.513px;
+}
+.stage {
+  width: 155.646px;
+  height: 44.065px;
+  color: #070707;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 95px;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.photo_img {
+  width: 100%;
+  max-width: 940px;
+  height: 387px;
+  object-fit: cover;
+  object-position: 0 -430px;
+  margin-top: 30px;
+  margin-bottom: 104px;
+}
+.about__title {
+  color: #070707;
+  text-align: center;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  font-weight: 400;
+}
+.text1 {
+  font-family: "Gilroy-Medium";
+
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 45px;
+  margin-top: 17px;
+}
+.text2 {
+  font-family: "Gilroy-Medium";
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+.text3 {
+  font-family: "Gilroy-Medium";
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+
+.about__text {
+  width: 485.344px;
+  height: 218px;
+  text-align: center;
+  margin: 0 auto;
+}
+.about {
+  padding: 120px 0;
+  background: #f6f6f6;
+}
+.skills__title {
+  color: #070707;
+  text-align: center;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-top: 91px;
+}
+.skills__text {
+  color: #070707;
+  text-align: center;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 69px;
+}
+.skill__cards {
+  display: flex;
+  width: 100%;
+  max-width: 940px;
+  height: 88px;
+  object-fit: cover;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill__card {
+  max-width: 166px;
+  margin-top: 82px;
+}
+.skill__card__text {
+  margin-top: 24px;
+  color: #828282;
+  text-align: center;
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  font-weight: 400;
+}
+.skills__icon {
+  display: block;
+  margin: 0 auto;
+}
+.skills__stars {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+  margin-bottom: 110px;
+}
+.skills__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.portfolio__title {
+  color: #070707;
+  text-align: center;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-top: 112px;
+}
+.portfolio__image {
+  margin-top: 47px;
+}
+.portfolio__images {
+  width: 100%;
+}
+.portfolio__image__text {
+  color: #070707;
+  text-align: center;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  margin-top: 42px;
+}
+.portfolio__img__rbk {
+  margin-top: 99px;
+}
+.portfolio {
+  padding: 120px 0px;
+  background: #f6f6f6;
+}
+.contacts__title {
+  color: #070707;
+  text-align: center;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  font-weight: 400;
+  margin-top: 114px;
+  margin: 0 auto;
+}
+.contacts__text {
+  color: #070707;
+  text-align: center;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.contacts__button {
+  margin: 0 auto;
+  width: 180.5px;
+  border-radius: 30px;
+}
+.contact__btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;
+  border-radius: 30px;
+  background-color: black;
+  margin-top: 29px;
+  height: 42px;
+}
+.contacts__icons {
+  display: flex;
+  width: 342.184px;
+  height: 40.918px;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.contacts__textend {
+  color: #828282;
+  text-align: center;
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 45px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+    max-width: 100%;
+    padding: 30px;
+  }
+  .container .photo_img {
+    object-position: center;
+  }
+  .portfolio__image {
+    width: 100%;
+  }
+  .portfolio__img__rbk {
+    width: 100%;
+  }
+  .about__title {
+    font-size: 50px;
+  }
+  .about__text {
+    font-size: 25px;
+    width: 100%;
+  }
+  .text1,
+  .text2,
+  .text3 {
+    font-size: 20px;
+    margin-top: 29px;
+  }
+  .skills__icon {
+    width: 100%;
+  }
+  .skill__card__text {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .skills__star {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu {
+    display: none;
+  }
+  .name {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 65px;
+  }
+  .stage {
+    margin-top: 23px;
+  }
+  .adidas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 68px;
+  }
+  .cont {
+    position: absolute;
+    right: 0;
+  }
+  .adik {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 3px 0;
+  }
+  header {
+    position: fixed;
+  }
+  .container .photo_img {
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 104px;
+    width: 100%;
+    height: 478px;
+  }
+  .skills__title {
+    font-size: 50px;
+  }
+  .skills__text {
+    font-size: 25px;
+  }
+  .portfolio__title {
+    font-size: 50px;
+  }
+}
